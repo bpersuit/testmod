@@ -1,6 +1,7 @@
 package testmod
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/labstack/echo"
@@ -13,4 +14,5 @@ func main() {
 	})
 	e.Logger.Fatal(e.Start(":1323"))
 	e.Logger.Fatal(e.Start(":1323"))
+	fmt.Print("v1.0")
 }
