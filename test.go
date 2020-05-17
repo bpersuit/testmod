@@ -14,5 +14,5 @@ func main() {
 	})
 	e.Logger.Fatal(e.Start(":1323"))
 	e.Logger.Fatal(e.Start(":1323"))
-	fmt.Print("v1.0")
+	fmt.Print("v1.1")
 }
