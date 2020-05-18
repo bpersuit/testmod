@@ -16,3 +16,7 @@ func main() {
 	e.Logger.Fatal(e.Start(":1323"))
 	fmt.Print("v1.1")
 }
+
+func GetData() string {
+	return "test"
+}
