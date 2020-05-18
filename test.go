@@ -17,6 +17,6 @@ func main() {
 	fmt.Print("v1.1")
 }
 
-func GetData() string {
+func GetGZData() string {
 	return "gz-test"
 }
