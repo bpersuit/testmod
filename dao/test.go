@@ -18,5 +18,5 @@ func main() {
 }
 
 func GetData() string {
-	return "test"
+	return "test1"
 }
